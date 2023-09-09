@@ -1,0 +1,199 @@
+#EXTM3U url-tvg="http://streamer.mkpnet.ru/epg_service.xml" cache=300
+#EXTINF:-1 tvg-id=000000538 group-title="information" ,Первый канал HD
+udp://239.195.65.33:1234
+#EXTINF:-1 tvg-id=000000537 group-title="information" ,Россия HD
+udp://239.195.65.34:1234
+#EXTINF:-1 tvg-id=000000105 group-title="sports" ,Матч ТВ
+udp://239.195.64.3:1234
+#EXTINF:-1 tvg-id=000000002 group-title="information" ,НТВ
+udp://239.195.64.4:1234
+#EXTINF:-1 tvg-id=000000089 group-title="information" ,Пятый канал
+udp://239.195.64.5:1234
+#EXTINF:-1 tvg-id=000000066 group-title="culture" ,Россия-К
+udp://239.195.64.6:1234
+#EXTINF:-1 tvg-id=000000198 group-title="information" ,Россия-24
+udp://239.195.64.7:1234
+#EXTINF:-1 tvg-id=000000157 group-title="childrens" ,Карусель
+udp://239.195.64.8:1234
+#EXTINF:-1 tvg-id=000000636 group-title="information" ,ОТР
+udp://239.195.64.9:1234
+#EXTINF:-1 tvg-id=000000111 group-title="information" ,ТВ Центр
+udp://239.195.64.10:1234
+#EXTINF:-1 tvg-id=000000092 group-title="entertainments" ,Рен ТВ
+udp://239.195.64.11:1234
+#EXTINF:-1 tvg-id=000000247 group-title="culture" ,Спас
+udp://239.195.64.12:1234
+#EXTINF:-1 tvg-id=000000107 group-title="entertainments" ,СТС
+udp://239.195.64.13:1234
+#EXTINF:-1 tvg-id=000000051 group-title="entertainments" ,Домашний
+udp://239.195.64.14:1234
+#EXTINF:-1 tvg-id=000000108 group-title="entertainments" ,ТВ3
+udp://239.195.64.15:1234
+#EXTINF:-1 tvg-id=000000032 group-title="entertainments" ,Пятница
+udp://239.195.64.16:1234
+#EXTINF:-1 tvg-id=000000056 group-title="cinema" ,Звезда
+udp://239.195.64.17:1234
+#EXTINF:-1 tvg-id=000000071 group-title="culture" ,Мир
+udp://239.195.64.18:1234
+#EXTINF:-1 tvg-id=000000121 group-title="entertainments" ,ТНТ
+udp://239.195.64.19:1234
+#EXTINF:-1 tvg-id=000000073 group-title="music" ,Муз ТВ
+udp://239.195.64.20:1234
+#EXTINF:-1 tvg-id=000000023 group-title="cinema" ,TV 1000
+udp://239.195.67.20:1234
+#EXTINF:-1 tvg-id=000000024 group-title="cinema" ,TV 1000 Русское кино
+udp://239.195.67.22:1234
+#EXTINF:-1 tvg-id=000000208 group-title="cinema" ,TV 1000 Action
+udp://239.195.67.23:1234
+#EXTINF:-1 tvg-id=000000021 group-title="science" ,Viasat Explore
+udp://239.195.67.24:1234
+#EXTINF:-1 tvg-id=000000022 group-title="science" ,Viasat History
+udp://239.195.67.25:1234
+#EXTINF:-1 tvg-id=000000296 group-title="science" ,Viasat Nature
+udp://239.195.67.27:1234
+#EXTINF:-1 tvg-id=000001662 group-title="cinema" ,AMEDIA HIT HD
+udp://239.195.65.215:1234
+#EXTINF:-1 tvg-id=000000351 group-title="cinema" ,Amedia 2
+udp://239.195.65.4:1234
+#EXTINF:-1 tvg-id= group-title="science" ,Нано
+udp://239.195.65.214:1234
+#EXTINF:-1 tvg-id=000000288 group-title="business" ,Успех
+udp://239.195.65.6:1234
+#EXTINF:-1 tvg-id=000000868 group-title="cinema" ,ViP Premiere
+udp://239.195.65.217:1234
+#EXTINF:-1 tvg-id=000000139 group-title="sports" ,КХЛ ТВ
+udp://239.195.65.10:1234
+#EXTINF:-1 tvg-id=000000869 group-title="cinema" ,ViP Megahit
+udp://239.195.65.216:1234
+#EXTINF:-1 tvg-id=000000321 group-title="entertainments" ,THT4
+udp://239.195.67.12:1234
+#EXTINF:-1 tvg-id=000000255 group-title="culture" ,Союз
+udp://239.195.65.15:1234
+#EXTINF:-1 tvg-id=000001699 group-title="sports" ,МАТЧ! Арена
+udp://239.195.67.35:1234
+#EXTINF:-1 tvg-id=000000989 group-title="entertainments" ,CTC Love
+udp://239.195.65.17:1234
+#EXTINF:-1 tvg-id=000000870 group-title="cinema" ,ViP Comedy
+udp://239.195.65.218:1234
+#EXTINF:-1 tvg-id=000000231 group-title="music" ,Europa Plus
+udp://239.195.65.19:1234
+#EXTINF:-1 tvg-id=000000013 group-title="entertainments" ,THT Music
+udp://239.195.65.57:1234
+#EXTINF:-1 tvg-id=000000186 group-title="sports" ,МАТЧ Боец
+udp://239.195.65.60:1234
+#EXTINF:-1 tvg-id=000000285 group-title="entertainments" ,8 канал
+udp://239.195.65.21:1234
+#EXTINF:-1 tvg-id=000000481 group-title="cinema" ,Русский Бестселлер
+udp://239.195.65.22:1234
+#EXTINF:-1 tvg-id=000000325 group-title="cinema" ,Русский Роман
+udp://239.195.65.23:1234
+#EXTINF:-1 tvg-id=000001008 group-title="cinema" ,Русский Детектив
+udp://239.195.65.24:1234
+#EXTINF:-1 tvg-id=000001700 group-title="entertainments" ,Продвижение
+udp://239.195.65.64:1234
+#EXTINF:-1 tvg-id=000000286 group-title="science" ,Мужской
+udp://239.195.65.28:1234
+#EXTINF:-1 tvg-id=000000289 group-title="science" ,Загородная Жизнь
+udp://239.195.65.29:1234
+#EXTINF:-1 tvg-id= group-title="science" ,Planet HD (test)
+udp://239.195.65.200:1234
+#EXTINF:-1 tvg-id=000000026 group-title="sports" ,Extreme Sports
+udp://239.195.65.40:1234
+#EXTINF:-1 tvg-id=000000166 group-title="science" ,Моя планета
+udp://239.195.65.41:1234
+#EXTINF:-1 tvg-id=000000004 group-title="information" ,Первый канал
+udp://239.195.64.1:1234
+#EXTINF:-1 tvg-id=000000095 group-title="information" ,Россия 1
+udp://239.195.64.2:1234
+#EXTINF:-1 tvg-id=000000174 group-title="childrens" ,TiJi
+udp://239.195.65.35:1234
+#EXTINF:-1 tvg-id=000000203 group-title="childrens" ,Мультиландия (test)
+udp://239.195.65.209:1234
+#EXTINF:-1 tvg-id= group-title="childrens" ,CTC Kids (test)
+udp://239.195.65.210:1234
+#EXTINF:-1 tvg-id= group-title="childrens" ,Супер Герои
+udp://239.195.65.38:1234
+#EXTINF:-1 tvg-id=000000137 group-title="childrens" ,Солнце
+udp://239.195.65.39:1234
+#EXTINF:-1 tvg-id=000001207 group-title="childrens" ,Мульт
+udp://239.195.65.66:1234
+#EXTINF:-1 tvg-id= group-title="childrens" ,DuckTV (test)
+udp://239.195.65.208:1234
+#EXTINF:-1 tvg-id=000000154 group-title="music" ,Russian MusicBox
+udp://239.195.65.219:1234
+#EXTINF:-1 tvg-id=000000210 group-title="music" ,Шансон ТВ
+udp://239.195.65.221:1234
+#EXTINF:-1 tvg-id=000000143 group-title="sports" ,Матч Премьер
+udp://239.195.65.222:1234
+#EXTINF:-1 tvg-id=000000281 group-title="culture" ,RTG TV
+udp://239.195.66.6:1234
+#EXTINF:-1 tvg-id=000000192 group-title="music" ,Bridge TV
+udp://239.195.66.4:1234
+#EXTINF:-1 tvg-id=000000482 group-title="culture" ,ТБН
+udp://239.195.67.19:1234
+#EXTINF:-1 tvg-id=000003785 group-title="entertainments" ,Наша тема
+udp://239.195.66.2:1234
+#EXTINF:-1 tvg-id=000000101 group-title="music" ,RU TV
+udp://239.195.67.26:1234
+#EXTINF:-1 tvg-id=000001494 group-title="sports" ,Конный мир
+udp://239.195.67.8:1234
+#EXTINF:-1 tvg-id=000003591 group-title="entertainments" ,Суббота
+udp://239.195.67.16:1234
+#EXTINF:-1 tvg-id=000000250 group-title="music" ,9 волна
+udp://239.195.65.54:1234
+#EXTINF:-1 tvg-id=000001208 group-title="information" ,Мир 24 HD
+udp://239.195.67.17:1234
+#EXTINF:-1 tvg-id=000000054 group-title="cinema" ,Че
+udp://239.195.65.51:1234
+#EXTINF:-1 tvg-id= group-title="information" ,360 Новости
+udp://239.195.65.212:1234
+#EXTINF:-1 tvg-id=000000432 group-title="entertainments" ,Ю
+udp://239.195.67.3:1234
+#EXTINF:-1 tvg-id=000001188 group-title="science" ,RT Doc HD
+udp://239.195.66.54:1234
+#EXTINF:-1 tvg-id=000001301 group-title="information" ,ЛДПР ТВ
+udp://239.195.67.6:1234
+#EXTINF:-1 tvg-id=000001468 group-title="information" ,Красная Линия
+udp://239.195.67.9:1234
+#EXTINF:-1 tvg-id=000003871 group-title="cinema" ,КиноSAT
+udp://239.195.67.11:1234
+#EXTINF:-1 tvg-id=000001223 group-title="information" ,Точка ТВ
+udp://239.195.66.12:1234
+#EXTINF:-1 tvg-id= group-title="music" ,О2ТВ
+udp://239.195.65.63:1234
+#EXTINF:-1 tvg-id=000000284 group-title="childrens" ,Gulli
+udp://239.195.65.62:1234
+#EXTINF:-1 tvg-id=000000091 group-title="business" ,РБК
+udp://239.195.67.13:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,TPO
+udp://239.195.67.14:1234
+#EXTINF:-1 tvg-id=000001844 group-title="entertainments" ,Жара ТВ
+udp://239.195.65.48:1234
+#EXTINF:-1 tvg-id=000000009 group-title="entertainments" ,2x2
+udp://239.195.67.15:1234
+#EXTINF:-1 tvg-id=000000724 group-title="information" ,Вместе-РФ
+udp://239.195.67.1:1234
+#EXTINF:-1 tvg-id= group-title="science" ,Точка отрыва (test)
+udp://239.195.65.201:1234
+#EXTINF:-1 tvg-id= group-title="science" ,Terra (test)
+udp://239.195.65.211:1234
+#EXTINF:-1 tvg-id=000003175 group-title="information" ,Большая азия
+udp://239.195.65.213:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,Кинохит
+udp://239.195.65.67:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,Киносвидание
+udp://239.195.65.68:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,Мужское кино
+udp://239.195.65.69:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,Киносемья
+udp://239.195.65.206:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,Кинопремьера
+udp://239.195.65.71:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,Кино Ужас
+udp://239.195.65.26:1234
+#EXTINF:-1 tvg-id= group-title="cinema" ,Киномикс
+udp://239.195.65.27:1234
+#EXTINF:-1 tvg-id= group-title="sports" ,Матч!Игра
+udp://239.195.65.61:1234
+#EXTINF:-1 tvg-id= group-title="sports" ,Матч!Страна
+udp://239.195.65.73:1234
