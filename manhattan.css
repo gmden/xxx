@@ -2300,3 +2300,7 @@ background-image : url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83
     display: flex;
     justify-content: center;
 }
+.productModalProductAvailability
+{
+order: 4;
+}
