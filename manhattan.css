@@ -1822,8 +1822,7 @@ justify-content:center
 }
 
 .ProductModal-module__dropdown .productModalDescription {
-order:1;
-width:60%
+order:0;
 }
 
 .ProductModal-module__dropdown .productModalGiveText {
