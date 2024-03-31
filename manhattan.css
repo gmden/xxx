@@ -1,3 +1,49 @@
+.NavServerDropDown-module__shopTitle::before {
+  content: "ВЫБРАТЬ ";
+}
+.NavServerDropDown-module__shopTitle::after {
+  content: " СЕРВЕРА";
+}
+
+
+#block_vip, #vip_res, #block_elite, #block_elite_res, #block_elite_tools, #block_master, #block_master_res, #block_master_tools, #block_raid, #block_raid_res, #block_raid_tools, #block_raidX, #block_legend, #block_legend_res, #block_legend_tools, #block_legendX {
+    background: rgb(37 37 37 / 73%);
+    width: 100%;
+    height: 253%;
+    position: fixed;
+    top: -920px;
+    left: 0px;
+    display: none;
+    z-index: 999;
+}
+        #block_vip:target, #vip_res:target, #block_elite:target, #block_elite_res:target, #block_elite_tools:target, #block_master:target, #block_master_res:target, #block_master_tools:target, #block_raid:target, #block_raid_res:target, #block_raid_tools:target, #block_raidX:target, #block_legend:target, #block_legend_res:target, #block_legend_tools:target, #block_legendX:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+#okno {
+        height: 0;
+        width: fit-content;
+        text-align: center;
+        padding: 15px;
+        position: absolute;
+    top: 260px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        z-index: 999;
+      }
+
+.close:hover {background: #e6e6ff;}
+
 body {
 background-color:#000!important;
 background-size:cover!important;
@@ -1307,13 +1353,7 @@ border-radius:7.5px;
 margin-left:5px
 }
 
-@media (min-width: 768px) {
-.store-categories {
-flex-direction:row;
-flex-wrap:wrap;
-margin-bottom:16px
-}
-}
+
 
 .BasketSearch-module__iconWrapper {
 background:rgba(255,255,255,.08)
@@ -1386,9 +1426,9 @@ background:linear-gradient(180deg,rgba(41,41,58,0) 0%,rgb(99 89 68 / 20%) 100%);
 border-radius:8px;
 display:flex;
 flex-direction:column;
-height:80px;
+height:70px;
 margin:8px;
-width:80px
+width:70px
 }
 
 .block_by_category:before {
@@ -1549,9 +1589,9 @@ background:linear-gradient(180deg,rgba(41,41,58,0) 0%,rgb(99 89 68 / 20%) 100%);
 border-radius:8px;
 display:flex;
 flex-direction:column;
-height:80px;
+height:70px;
 margin:8px;
-width:80px
+width:70px
 }
 
 .kit-item:hover {
@@ -1668,7 +1708,7 @@ position:absolute;
 text-align:center;
 transition:opacity 220ms ease-out;
 visibility:hidden;
-width:170px;
+width:320px;
 z-index:1
 }
 
@@ -1774,32 +1814,12 @@ justify-content:space-evenly;
 overflow:hidden
 }
 
-@media only screen and (max-width: 767px) {
-.container-oplata .tooltiptext1 {
-left:24%;
-top:-160%
-}
-
-.container-oplata .tooltiptext1::after {
-border-color:rgba(0,0,0,0.5) transparent transparent;
-border-style:solid;
-border-width:5px;
-content:"";
-margin-top:-5px;
-position:absolute;
-right:50%;
-top:105%
-}
-}
 
 .ProductModal-module__dropdown .boxHeader,.ProductModal-module__dropdown .boxBody,.ProductModal-module__dropdown .boxFooter,.ProductModal-module__dropdown .productModalDescription {
 background:transparent
 }
 
-@media (min-width: 768px) {
-.ProductModal-module__dropdown {
-width:590px
-}
+
 
 .ProductModal-module__dropdown .ProductModal-module__form {
 order:3;
@@ -2030,11 +2050,7 @@ padding-top:5px
     background-repeat: no-repeat
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width:1300px
-    }
-}
+
 
 .divInfo {
     color: rgba(255,255,255,.3);
@@ -2200,6 +2216,11 @@ background-image : url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83
 
 /*//////////////////////////Адаптация сайта/////////////////////////*/
 @media (min-width: 768px){
+  
+    .kit-item {
+    width: 20px;
+    height: 20px;
+  }
 
 @-webkit-keyframes gradient {
 	0% {
@@ -2214,12 +2235,38 @@ background-image : url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83
 }
 }
 
-@media (max-width: 768px){
+
+@media (min-width: 1200px) {
+    .container {
+        width:1300px
+    }
+}
+@media (min-width: 768px) {
+.ProductModal-module__dropdown {
+width:590px
+  
+  .store-categories {
+flex-direction:row;
+flex-wrap:wrap;
+margin-bottom:16px
+}
 .swiper-container {
     display: none;
 }
 }
+  
+  @media only screen and (max-width: 767px) {
+.container-oplata .tooltiptext1 {
+left:24%;
+top:-160%
+}
+ }
+  
 
+  
+  }
+
+    
 .kit-items {
     display: flex;
     justify-content: flex-start;
@@ -2236,8 +2283,8 @@ background-image : url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 95%);
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
 .wipe-item {
     margin: 4px;
@@ -2302,4 +2349,11 @@ background-image : url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83
 .productModalProductAvailability
 {
 order: 4;
+}
+.ProductModal-module__dropdown .productModalGiveText {
+    order: 5;
+}
+.ProductModal-module__dropdown
+{
+  width: 590px;
 }
