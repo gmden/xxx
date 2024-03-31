@@ -1,0 +1,355 @@
+<style>
+    @-webkit-keyframes pulsing {
+      0% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5)
+      }
+      50% {
+        -webkit-transform: scale(1.0, 1.0);
+        transform: scale(1.0, 1.0);
+      }
+      100% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5);
+      }
+    }
+    
+    @keyframes pulsing {
+      0% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5)
+      }
+      50% {
+        -webkit-transform: scale(1.0, 1.0);
+        transform: scale(1.0, 1.0);
+      }
+      100% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5);
+      }
+    }
+    .menubox {
+      margin-right: 55px;
+      margin-top: -10px;
+      width: 100%;
+    }
+    .menubox h3 {
+      color: white;
+      font-size: 16px;
+      padding-left: 60px;
+      padding-top: 10px;
+    }
+    .menubox p {
+      color: #d1d1d1;
+      font-size: 12px;
+      padding-left: 60px;
+      margin-top: -10px;
+    }
+    .menuvk {
+      background-color: #2d3544;
+      width: 50%;
+      height: 50px;
+      border-radius: 15px;
+      margin-bottom: -10px;
+      background-image: url("https://i.imgur.com/kgCO6kD.png");
+      background-size: 40px;
+      background-position: 45px;
+      background-repeat: no-repeat;
+      transition: all 0.2s ease-out;
+    }
+    .menuvk:hover {
+      transition: all 0.2s ease-out;
+      transform: scale(0.95);
+    }
+    .menuvk h3 {
+      color: #00000000;
+    }
+    .menuvk p {
+      color: #00000000;
+    }
+    .menuds {
+      background-color: #2d3544;
+      width: 48%;
+      height: 50px;
+      margin-left: 136.4px;
+      margin-top: -70px;
+      border-radius: 15px;
+      margin-bottom: -10px;
+      background-image: url("https://i.imgur.com/2FdnppV.png");
+      background-size: 40px;
+      background-position: 45px;
+      background-repeat: no-repeat;
+      transition: all 0.2s ease-out;
+    }
+    .menuds:hover {
+      transition: all 0.2s ease-out;
+      transform: scale(0.95);
+    }
+    .menuds h3 {
+      color: #00000000;
+    }
+    .menuds p {
+      color: #00000000;
+    }
+    .menurules {
+      background-color: #4a2c81;
+      width: 100%;
+      height: 50px;
+      border-radius: 15px;
+      margin-bottom: -10px;
+      background-image: url("https://i.imgur.com/NDttx9J.png");
+      background-size: 30px;
+      background-position: 10px;
+      background-repeat: no-repeat;
+      transition: all 0.2s ease-out;
+    }
+    .menurules:hover {
+      transition: all 0.2s ease-out;
+      transform: scale(0.95);
+    }
+    .menublock {
+      background-color: #4a2c81;
+      width: 100%;
+      height: 50px;
+      border-radius: 15px;
+      margin-bottom: -10px;
+      background-image: url("https://i.imgur.com/FrW4sk9.png");
+      background-size: 30px;
+      background-position: 10px;
+      background-repeat: no-repeat;
+      transition: all 0.2s ease-out;
+    }
+    .block-item {
+      width: 70px;
+      height: 70px;
+      border-radius: 15px 15px 15px 15px;
+      margin-bottom: 10px;
+      margin-left: 6px;
+      background-color: #2d3544;
+      transition: all 0.2s ease-out;
+    }
+    .block-item-image {
+      transition: all 0.2s ease-out;
+      width: 100%;
+      padding: 10px;
+    }
+    .block-item:hover {
+        transform: scale(1.04);
+        transition: all 0.3s;
+    }
+    .block-item-category {
+        width: 90%;
+        height: 10%;
+        display: -webkit-inline-box;
+        margin-top: 30px;
+    }
+    .block-item-time {
+    width: 32px;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background: linear-gradient(115deg, #6b00bd, #6b00bd61, #6b00bd, #340a6f);
+    background-size: 400% 400%;
+    animation: gradient 4s cubic-bezier(0.25, 0.1, 0.26, 0.97) infinite;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 400;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 65%);
+    display: flex;
+    
+    }
+    
+    
+    .block-item-time2 {
+    width: 32px;
+    margin-bottom: 10px;
+    
+    }
+    
+    
+    
+    .block-item-category2 {
+    width: 90%;
+    height: 10%;
+    display: -webkit-inline-box;
+    margin-top: -10px;
+    }
+    
+    
+    
+    
+        .store-categories .btn.active { 
+           color: #fff;
+           border: none;
+           transform: scale(1.15);
+           font-weight: 400;
+           background: linear-gradient(to left,#340d7a 0,#7136aa 100%); /*to left,#340d7a 0,#7136aa 100%);*/
+        }
+        
+        .store-categories .btn-default {
+           background-color: #00000047;
+           border: 0px;
+           color: #c6a7ff;
+           font-size: 12px;
+           /* transition: all 0.2s ease 0s; */
+           border-radius: 5px;
+           background-size: 277px !important;
+           /* background-color: aqua; */
+           font-weight: 600;
+           /*box-shadow: 0 0 4px 2px #ff0000b8;*/
+        }
+        
+        .store-categories .btn-default:hover{
+        box-shadow : 0 0 3px 3px #fff;
+        transform : scale3d(1.2,1.2,1.2);
+        }
+        .store-categories .btn-default a {
+        background-color : rgb(0, 0, 0, 0.19);
+        background-position : center;
+        background-repeat : no-repeat;
+        background-size : contain;
+        border-radius : 10px;
+        flex-basis : 20%;
+        height : 50px;
+        transition : all 0.3s;
+        margin : 5px;
+        }
+        .store-categories > .btn + .btn {
+           margin-left: 0.99rem;
+           /*box-shadow: 2px 2px 3px 0px black;*/
+        }
+</style>
+
+
+<div class="xbox_custom_kits">
+    <div class=""><br></div>
+    <div class="kit_set">
+        <div class="kit-items">
+
+
+
+            <div class="block-item-category2">
+                <div class="block-item-time">2ч</div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/shotgun.pump.png"></div>
+                    <div class="wipeblock-item">2ч</div>
+                </div>
+
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/shotgun.spas12.png"></div>
+                    <div class="wipeblock-item">2ч</div>
+                </div>
+
+
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.2.png"></div>
+                    <div class="wipeblock-item">2ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.thompson.png"></div>
+                    <div class="wipeblock-item">2ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/flamethrower.png"></div>
+                    <div class="wipeblock-item">2ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.semiauto.png"></div>
+                    <div class="wipeblock-item">2ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://i.ibb.co/txtDwQR/grenade-molotov.png"></div>
+                    <div class="wipeblock-item">2ч</div>
+                </div>
+            </div>
+
+
+            <div class="block-item-category">
+                <div class="block-item-time">24ч</div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/multiplegrenadelauncher.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.mp5.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.m39.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.ak.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.lr300.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.bolt.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/lmg.m249.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.l96.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://gamestores.app/img/games/rust/-1214542497.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="block-item-category2">
+                <div class="block-item-time2"><br></div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/grenade.beancan.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/explosive.satchel.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/ammo.rifle.explosive.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+                <div class="kit-items__item">
+                    <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/ammo.grenadelauncher.he.png"></div>
+                    <div class="wipeblock-item">24ч</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="block-item-category">
+            <div class="block-item-time">48ч</div>
+            <div class="kit-items__item">
+                <div class="wipe-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/explosive.timed.png"></div>
+                <div class="wipeblock-item">48ч</div>
+            </div>
+            <div class="kit-items__item">
+                <div class="wipe-item"><img class="kit-item__image" src="https://gamestores.app/img/games/rust/-742865266.png"></div>
+                <div class="wipeblock-item">48ч</div>
+            </div>
+            <div class="kit-items__item">
+                <div class="wipe-item"><img class="kit-item__image" src="https://gamestores.app/img/games/rust/-1843426638.png"></div>
+                <div class="wipeblock-item">48ч</div>
+            </div>
+            <div class="kit-items__item">
+                <div class="wipe-item"><img class="kit-item__image" src="https://gamestores.app/img/games/rust/-1671551935.png"></div>
+                <div class="wipeblock-item">48ч</div>
+            </div>
+        </div>
+    </div>
+</div>
